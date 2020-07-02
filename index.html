@@ -6,44 +6,7 @@
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <title>Web Mail Login for iway</title>
-<script language="JAVASCRIPT">
 
-function validate(formCheck) {
-
- if (formCheck.user.value =='') {
-   alert('Please provide your Username ');
-   formCheck.user.focus();
-   return false;
- }
-
- var tmp_str = '';
-
- //return value from substr, one character at a time
- //for (i=0;i<=formCheck.user.value.length;i++) {
-
- //  if(formCheck.user.value.substr(i,1)=='@') {
- //       alert('*Please enter a valid username*\n\n'+
- //             'Be sure to use ONLY your username \n'+
- //             'and not the complete email address\n\n'+
- //             'e.g. you entered \n\n' + formCheck.user.value + '\n\n'+
- //             'but it should only be\n\n' + tmp_str);
- //       formCheck.user.focus();
- //       return false;
- //       break;
- //  } else {
- //       tmp_str = tmp_str + formCheck.user.value.substr(i,1);
- //  }
- //}
-
- if (formCheck.password.value =='') {
-   alert('Please provide your Password');
-   formCheck.password.focus();
-   return false;
- }
-}
-
-
-</script>
 
 </head>
 
